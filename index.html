@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Proposal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Page 1 -->
+    <div class="page" id="page1">
+      <h1>Hello RaisaPakhi!</h1>
+      <button onclick="nextPage(2)">Next</button>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page" id="page2">
+      <h2>💖</h2>
+      <p>RaisaPakhi, <br>
+      From the moment I started talking to you, I felt a deep, special connection. I don’t know why, but a beautiful feeling has started to grow inside me—one I’ve wished for all my life. You make me feel safe in a way only a truly special person can. I know I’ve found the right person… and now, the moment I’ve been waiting for has come.</p>
+      <button onclick="nextPage(3)">Next</button>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="page" id="page3">
+      <img src="your-image.jpg" alt="Proposal Image" id="proposal-img">
+      <div id="choices">
+        <button onclick="chooseYes('Yes! 💖')">Yes</button>
+        <button onclick="chooseYes('Yes! 💕')">Yes</button>
+      </div>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
